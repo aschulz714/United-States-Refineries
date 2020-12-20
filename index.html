@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset=utf-8 />
+	<title>U.S. Refineries</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #d3d3d3;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
+
+		section {
+			/* width: 960px; */
+			width: 80%;
+			margin: 20px auto;
+		}
+
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 800;
+			font-size: 2.5em;
+			/* The em unit. 3x the current size */
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
+
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.25em;
+			letter-spacing: .04em;
+		}
+
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
+
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		ul {
+			padding-left: 20px;
+		}
+
+		li {
+			margin: 10px 0
+		}
+
+		#map {
+			width: 100%;
+			margin: 10px auto;
+			border: 2px solid #d3d3d3;
+		}
+
+		.max-image-width {
+			width:100%;
+		}
+	</style>
+</head>
+
+<body>
+
+	<section>
+
+
+		<div id='map'>
+			<img src="refineries_1200px.png" alt="Map of U.S. Refineries (And Crude Oil Pipelines)" class="max-image-width">
+			<br/>
+			<a href="refineries_8000px.png">Link to High Resolution Map</a>
+			<br/>
+			<a href="us_refineries.geojson">Link to Refineries GeoJSON</a>
+
+		</div>
+
+		<h1>U.S. Pertroleum Refineries (And Crude Oil Pipelines)</h1>
+
+		<h2>Authored by: Alex Schulz</h2>
+		<p>This map shows the location of petroeleum refineries in the United States and the crude oil pipelines supplying feedstock to these refineries. The refineries are displayed by graduated size based on atmospheric distillation. Atmospheric distillation is typically representative of the capacity of the refinery and is measured in thousands of barrels per day processed using 2020 data.  <a href="https://www.eia.gov/maps/layer_info-m.php https://logotyp.us/logo/total-sa/" target="_blank">U.S. Energy Information Administration Data</a>.  <a href="https://www.eia.gov/petroleum/refinerycapacity/" target="_blank">Refinery Capacity Report on Which Data is Based</a>. </p>
+
+		<p>The inspiration for this map came from investing in refinery stocks and wanting a visualization of the location of refineries in the U.S.. From here, the symbology could be changed to categorized by corporate ownership to show which refineries share common ownership.</p>
+		<ul>
+			<li>See my projects on GitHub: <a href="https://github.com/aschulz714">Alex Schulz</a></li>
+		</ul>
+	</section>
+
+</body>
+
+</html>
